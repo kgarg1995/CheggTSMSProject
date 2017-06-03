@@ -3,26 +3,26 @@
 
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_camera"
+                android:id="@+id/nav_bluetooth"
                 android:title="Bluetooth"/>
         <item
-                android:id="@+id/nav_gallery"
+                android:id="@+id/nav_temperature"
                 android:title="Temeperature"/>
         <item
-                android:id="@+id/nav_slideshow"
+                android:id="@+id/nav_motion"
                 android:title="Motion"/>
         <item
-                android:id="@+id/nav_manage"
+                android:id="@+id/nav_humidity"
                 android:title="Moisture/Humidity"/>
     </group>
 
     <item android:title="">
         <menu>
             <item
-                    android:id="@+id/nav_share"
+                    android:id="@+id/nav_signout"
                     android:title="Sign Out"/>
             <item
-                    android:id="@+id/nav_send"
+                    android:id="@+id/nav_rateus"
                     android:title="Rate Us"/>
         </menu>
     </item>
