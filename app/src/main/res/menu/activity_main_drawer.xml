@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_camera"
+                android:title="Bluetooth"/>
+        <item
+                android:id="@+id/nav_gallery"
+                android:title="Temeperature"/>
+        <item
+                android:id="@+id/nav_slideshow"
+                android:title="Motion"/>
+        <item
+                android:id="@+id/nav_manage"
+                android:title="Moisture/Humidity"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:title="Sign Out"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:title="Rate Us"/>
+        </menu>
+    </item>
+
+</menu>
